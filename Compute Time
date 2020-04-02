@@ -1,0 +1,15 @@
+    // Additional Function That Store The End Time In Millis Seconds
+    var END_TIME - START_TIME = 0;
+    
+    private void endTime() {
+
+        END_TIME = System.currentTimeMillis();
+
+    }
+
+    // Additional Function That Subtracts The End Time From The Start Time
+    private void DiffrenceTime() {
+
+        System.out.println("\nIt Tooks " + ((int) (END_TIME - START_TIME)) + " ms\n");
+
+    }
